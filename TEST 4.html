@@ -1,0 +1,37 @@
+<! DOCTYPE html>
+<html land="en">
+<head>
+<title>Array of student scores</title>
+</head>
+<body>
+
+<div id= "notification">
+
+<script>
+let course1 = {value: 91};
+let course2 = {value: 90};
+let course2 = course1;
+let course3 = {value: 87};
+let course4 = {value: 89};
+let course5 = {value: 96};
+
+console.log(course1 == course2);
+// → true
+console.log(course1 == course3);
+// → false
+
+course1.value = 15;
+console.log(course2.value);
+// → 90
+console.log(course3.value);
+// → 87
+
+var courses =["English","Maths","company law","computer science","HRM"]
+var scores = ["91","90","87","89","96"]
+document.getElementById("notification").innerHTML = courses;
+document.getElementById("notification").innerHTML = scores;
+</script>
+</div>
+
+</body>
+</html>

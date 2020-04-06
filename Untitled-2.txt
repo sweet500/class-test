@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Class Methods</h2>
+<p>Using a Class Method to talk about some of the signs of Convid-19 that others are unaware of.</p>
+
+<p id="work"></p>
+
+<script>
+Class Convid{
+    constructor(signs) { 
+    this.diarrhoea = signs;
+    this.inability to taste = signs;
+    this.inability to smell = signs;
+    this.body aches = signs;
+    this.red eyes = signs;
+    this.runny nose = signs;
+    this.hallucination = signs;
+} 
+present() {
+ return "These are the signs unnoticed" + this.diarrhoea;
+ return "These are the signs unnoticed" + this.inability to taste;
+ return "These are the signs unnoticed" + this.inability to smell;
+ return "These are the signs unnoticed" + this.body aches;
+ return "These are the signs unnoticed" + this.red eyes;
+ return "These are the signs unnoticed" + this.runny nose;
+ return "These are the signs unnoticed" + this.hallucination;
+}
+}
+Convid = new signs("diarrhoea")
+Convid = new signs("inability to taste")
+Convid = new signs("inability to smell")
+Convid = new signs("body aches")
+convid = new signs("red eyes")
+convid = new signs("hallucination")
+
+document.getElemntById("work").innerHTML = Convid.present();
+</script>
+</body>
+</html>

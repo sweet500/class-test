@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form</title>
+</head>
+<body>
+<h3>Sign Up</h3>
+
+<form>
+<table>
+<tr>
+<td>
+Full name:
+</td>
+<td>
+<input type ="mail"  placeholder ="full name" id="fullname>
+</td>
+</tr>
+<tr>
+<td>
+Email:
+</td>
+<td>
+<input type="text" placeholder="example@love.com" id="email">
+</td>
+</tr>
+<tr>
+<td>
+Password:
+</td>
+<td>
+<input type="Password" placeholder="letters,/(), numbers"id="password">
+</td>
+</tr>
+<tr>
+<td>
+Confirm Password:
+</td>
+<td>
+<input type="Password" placeholder="repeat password" id="confirmpassword">
+</td>
+</tr>
+<tr>
+<td>
+<button type="button" onclick="submitted();">Submit</button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+<script>
+function submitted () { 
+
+    var password =document.getElementById("password").value; 
+    var confirmpassword = document.getElementById("confirmedpassword").value;
+
+    if (password == confirmedpassword) {
+        alert("match")
+
+    } else {
+        alert("not match")
+    }
+}
+
+
+function myFunction() {
+  var password = document.getElementById("password");
+  var confirmpassword = document.toUpperCase();
+}
+
+</script>
+</html>
